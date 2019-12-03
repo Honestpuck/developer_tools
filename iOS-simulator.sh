@@ -17,5 +17,5 @@ sim=$(echo ${app} | sed 's#\ S.*$##')
 /usr/local/lib/ruby/gems/2.6.0/bin/xcversion simulators --install="${sim}"
 
 /usr/local/bin/terminal-notifier -sound default -title "iOS installer" \
-				 -contentImage /Library/Management/Assets/macsuncorp-light.png \
+				 -contentImage /Library/Assets/logo-light.png \
 				 -message "iOS simulator install complete"
