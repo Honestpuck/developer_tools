@@ -12,4 +12,8 @@ return selectedApp
 EOF
 )
 
+if [[ -z $app ]] ; then
+    exit 0
+fi
+
 rm -rf  "/Applications/${app}"
